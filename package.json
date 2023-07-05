@@ -1,0 +1,24 @@
+{
+  "name": "escuela-nodejs",
+  "version": "1.0.0",
+  "description": "api escuela con postgresql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "sql",
+    "postgresql"
+  ],
+  "author": "yarangodev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.6"
+  }
+}
